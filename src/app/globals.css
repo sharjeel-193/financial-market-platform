@@ -4,4 +4,10 @@
 
 * {
   transition: all 0.3s linear;
+  font-weight: 300;
 }
+
+a {
+  text-decoration: none;
+}
+
