@@ -11,13 +11,13 @@ module.exports = {
             colors: {
                 primary: {
                     DEFAULT: '#13b9b9',
-                    // light: '#3bcfcf',
-                    // dark: '#0f9494',
+                    light: '#3bcfcf',
+                    dark: '#0f9494',
                 },
                 secondary: {
                     DEFAULT: '#ffa500',
-                    // light: '#ffb733',
-                    // dark: '#cc8400',
+                    light: '#ffb733',
+                    dark: '#cc8400',
                 },
                 background: {
                     light: '#ffffff', // Light background
@@ -27,6 +27,13 @@ module.exports = {
                 light: '#000000', // Light text
                 dark: '#ffffff',  // Dark text
                 },
+            },
+            screens: {
+                'xs': '480px',
+                'sm': '640px',
+                'md': '768px',
+                'lg': '1024px',
+                'xl': '1280px'
             }
         },
     },
